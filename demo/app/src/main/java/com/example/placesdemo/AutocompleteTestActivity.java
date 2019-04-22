@@ -17,7 +17,7 @@
 package com.example.placesdemo;
 
 import com.google.android.gms.common.api.Status;
-import com.google.android.gms.maps.model.LatLngBounds;
+import com.google.android.libraries.maps.model.LatLngBounds;
 import com.google.android.gms.tasks.Task;
 import com.google.android.libraries.places.api.Places;
 import com.google.android.libraries.places.api.model.AutocompleteSessionToken;
