@@ -9,7 +9,7 @@ android {
         versionCode 1
         versionName "1.0"
         resValue "string", "places_api_key", (project.findProperty("PLACES_API_KEY") ?: "")
-//        multiDexEnabled true
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -25,8 +25,8 @@ android {
 
 dependencies {
     api fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
-    implementation name:'maps_release', ext:'aar'
-    implementation name:'places_release', ext:'aar'
+//    implementation name:'maps_release', ext:'aar'
+//    implementation name:'places_release', ext:'aar'
     implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.0-alpha3'
     implementation 'com.google.guava:guava:23.5-android'
