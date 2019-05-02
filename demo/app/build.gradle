@@ -24,12 +24,13 @@ android {
 }
 
 dependencies {
-    implementation name:'maps_release', ext:'aar'
-    implementation name:'places_release', ext:'aar'
-
     implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.2'
 
+
+    // Dependencies for the Maps SDK v3.0 beta
+    implementation name:'maps-sdk-3.0.0-beta', ext:'aar'
+    implementation name:'places-maps-sdk-3.0.0-beta', ext:'aar'
     implementation 'com.google.android.gms:play-services-basement:15.0.1'
     implementation 'com.google.android.gms:play-services-base:15.0.1'
     implementation 'com.google.android.gms:play-services-gcm:15.0.1'
